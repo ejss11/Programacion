@@ -1,0 +1,77 @@
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.logocarrito {
+  width: calc(100% - 260px);
+  height: 100px;
+  background-color: rgb(253, 250, 250);
+  margin-right: -4px;
+}
+.logocarrito section{
+  width: 15%;
+  height: 50px;
+  /* background: #ffffff; */
+  padding: 10px 10px 10px;
+}
+.logo{
+  margin-right: 100px;
+  margin-left: 50px;
+  border: 3px 3px 3px black;
+  background-image: url(../../assets/imagenes/logo.png);
+  background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: bottom;
+}
+.section .buscar{
+  height: 50px;
+  margin-top: 0%;
+  margin-left: 79px;
+  border-radius: 1px 1px 1px black;
+  width: calc(100% - 260px);
+  margin-right: -4px;
+  
+}
+.input {
+  height: 40px;
+  padding: 0px 15px;
+  border: 1px solid #E4E7ED;
+  background-color: #FFF;
+  width: 100%;
+}
+
+.App-header {
+  margin-top: 0%;
+  background-color: #ffffff;
+  min-height: 100vh;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
